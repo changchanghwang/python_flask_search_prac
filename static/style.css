@@ -1,0 +1,67 @@
+
+.all{
+    border:1px solid;
+    box-shadow:1px 1px grey;
+    width:700px;
+    margin:auto;
+    border-radius: 3px;
+}
+.img{
+    width: 300px;
+    height: 300px;background-position: center;
+    background-size: cover;
+}
+.price{
+    font-size:15px;
+}
+.subject{
+    width:100px;
+    display:inline-block;
+}
+.number{
+    width:94px;
+    height: 30px;
+}
+.listBg{
+}
+.listBg:last-child{
+    margin-right:0px;
+}
+
+.text{
+    border: 1px solid;
+    border-radius: 5px;
+}
+.quantity{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 182px;
+    padding-bottom: 4px;
+}
+.btn{
+    margin:auto;
+    display:block;
+    width:100px;
+}
+.rate{
+    color : blue;
+}
+.date{
+    color : purple;
+}
+.table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+
+}
+.order_list{
+    text-align: center;
+    margin : 40px auto 0 auto;
+    font-weight: bold;
+}
+.searchT{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}

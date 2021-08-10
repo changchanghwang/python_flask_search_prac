@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlaskPrac</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css' )}}">
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <p>
+        <span class="subject adress" >주소: </span>
+        <input type="text" class="text" id = "address"/>
+    </p>
+    <button onclick="order()" type="button" class="btn btn-primary">주문하기</button>
+
+
+    <form class ="searchT" action="/search" id = "searchTest" method="GET">
+        <input id="adres" type="text" name="search" placeholder="주소검색">
+        <button type ="submit" id="search_btn">검색</button>
+    </form>
+
+    <div class="order_list">주문내역</div>
+        <table class ="table" id ="tablehead">
+            <thead>
+                <tr>
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+</html>
